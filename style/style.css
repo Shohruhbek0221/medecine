@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PR';
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.container {
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header__nav-box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.nav__box-img{
+    position	: relative;
+	width		: 100%; /* for IE 6 */
+}
+.header__nav-text{
+	position	: absolute;
+top: 5px;
+left: 12.5px;
+color: #FFF;
+font-family: 'MB';
+font-size: 26px;
+width: 17px;
+height: 32px;
+
+}
+.nav__box-title{
+    color: #233348;
+font-family: 'MB';
+font-size: 24px;
+}
+.header__box-left{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.header__box-list{
+    display: flex;
+    gap: 40px;
+margin-top: 10px;
+}
+.header__box-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header__box-link{
+    color: var(--1-f-1534-hyfen, #1F1534);
+    font-family: 'MR';
+    font-size: 18px;
+    opacity: 0.5;
+    transition: all 500ms;
+}
+.header__box-link:hover{
+    color: #000;
+   font-weight: bold;
+   opacity: 5;
+  
+}
+.header__content-left{
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+}
+.header__content-title{
+    color: #000;
+font-family: 'MB';
+font-size: 48px;
+line-height: 56px; /* 116.667% */
+}
+.header__content-text{
+    color: #7D7987;
+font-family:'ML';
+font-size: 21px;
+line-height: 32px; /* 152.381% */
+margin-top: 25px;
+}
+.header__content-link{
+    border-radius: 55px;
+    background: #458FF6;
+    width: 200px;
+height: 56px;
+color: #FFF;
+font-family: 'MB';
+font-size: 18px;
+line-height: 60px; /* 333.333% */
+display: flex;
+justify-content: center;
+margin-top: 45px;
+}
+.header__content-box{
+    display: flex;
+    gap:109px;
+}
+.header__content-right{
+margin-top: 85px;
+
+}
+.element{
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
+.service-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 115px;
+}
+.service__box-title{
+    color: #000;
+    font-family:'MB';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px; /* 155.556% */
+}
+
+.service__box-title::after{
+    width: 56px;
+    height: 2px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #000;
+    content: "";
+    display: block;
+   position: relative;
+   left: 77px;
+   top: 20px;
+}
+.service__box-text{
+    color: #7D7987;
+text-align: center;
+font-family: 'ML';
+font-size: 18px;
+line-height: 30px; /* 166.667% */
+margin-top: 10px;
+}
+
+.main__service-item{
+    width: 350px;
+height: 354px;
+flex-shrink: 0;
+display: flex;
+flex-direction: column;
+align-items: start;
+padding: 54px 45px 45px 40px;
+border-radius: 20px;
+background: #FFF;
+
+/* drop shadow */
+box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
+}
+.main__service-title{
+    color: #000;
+font-family: 'MB';
+font-size: 24px;
+line-height: 56px; /* 233.333% */
+}
+.main__service-text{
+    color: #7D7987;
+font-family: 'ML';
+font-size: 16px;
+line-height: 28px; /* 175% */
+}
+.main__service-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 34px;
+    
+}
+.main__service-link,
+.main__right-box-link{
+    color: #458FF6;
+font-family: 'MB';
+font-size: 18px;
+line-height: 60px; /* 333.333% */
+width: 200px;
+height: 56px;
+flex-shrink: 0;
+border-radius: 55px;
+border: 1.4px solid #458FF6;
+padding: 11px 53px 11px 53px;
+}
+.main__service-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main__service-link-box{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 69px;
+
+}
+.main__info-box{
+    display: flex;
+    gap: 142px;
+    margin-top: 220px;
+}
+.main__info-right-box-title{
+    color: #000;
+    font-family: 'MB';
+    font-size: 36px;
+    line-height: 56px; /* 155.556% */
+}
+.main__info-right-box-text{
+    color: #7D7987;
+font-family: 'ML';
+font-size: 18px;
+line-height: 30px; /* 166.667% */
+margin-top: 59px;
+margin-bottom: 40px;
+}
